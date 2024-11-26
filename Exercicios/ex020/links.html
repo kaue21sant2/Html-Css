@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after{
+            content: '[link]';
+            text-decoration: none;
+            color: darkred;
+            font-weight: normal;
+            display:inline-block;
+        }
+
+    </style>
+    
+    <title>Pseudo-elementos</title>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+<ul>
+    <a href="https://www.instagram.com/019_kaue.s.o/">
+        <li>Meu instagram</li>
+    </a>
+    
+    <a href="https://www.youtube.com/@kauesantos1399">
+        <li>Meu Youtube</li>
+    </a>
+    
+    <a href="https://www.facebook.com/profile.php?id=61559989006296">
+        <li>Meu facebook</li>
+    </a>
+</ul>
+</body>
+</html>
